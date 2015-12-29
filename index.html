@@ -1,1 +1,80 @@
-hello World
+<!DOCTYPE html>
+<html lang="en" manifest="introPage.appcache">
+
+<head>
+    <title>Saurav Bhalotia</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="An introduction website of Saurav Bhalotia">
+    <meta name="keywords" content="Saurav Bhalotia">
+    <meta name="author" content="@SauravBhalotia">
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="wrapper" class="overlay">
+        <header></header>
+<!--         <section class="oval-quotes">
+            <p class="about-me">
+                <span>I'm Saurav Bhalotia</span>
+                <span>Front End / User Interface Developer</span>
+            </p>
+        </section>
+ -->
+        <section class="resume">
+
+        </section>
+
+        <section class="reachMe hidden">
+            <div class="firstName_div">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName">
+                <div class="error hidden">
+                    <span class="required">First name cannot be blank</span>
+                </div>
+            </div>
+            <div class="lastName_div">
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName">
+                <div class="error hidden">
+                    <span class="required">Last name cannot be blank</span>
+                </div>
+            </div>
+            <div class="email_div">
+                <label for="email">Email:</label>
+                <input type="text" id="email">
+                <div class="error hidden">
+                    <span class="required">Email cannot be blank</span>
+                </div>
+            </div>
+            <div class="phone_div">
+                <label for="phone">Phone:</label>
+                <input type="text" id="phone">
+                <div class="error hidden">
+                    <span class="required">Phone cannot be blank</span>
+                </div>
+            </div>
+            <datalist>
+                <option value="office">Home</option>
+                <option value="office">Mobile</option>
+                <option value="office">Office</option>
+            </datalist>
+        </section>
+
+        <footer>
+            <ul class=" glyphicon social_media">
+                <li id="linkedin"> <i class="fa fa-linkedin"></i> <span class="social_text"> Linkedin</span></li>
+                <li id="twitter"> <i class="fa fa-twitter"></i> <span class="social_text"> Twitter</span></li>
+                <li id="github"> <i class="fa fa-github"></i> <span class="social_text">GitHub</span></li>
+                <li id="resume"> <i class="fa fa-file-text"></i> <span class="social_text">Resume</span></li>
+                <li id="reachMe"> <i class="fa fa-envelope"></i> <span class="social_text">Reach Me</span></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+
+</html>
